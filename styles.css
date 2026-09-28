@@ -61,6 +61,12 @@ nav a:hover {
 
 main {
     padding: 1rem;
+    text-align: justify;
+}
+
+main img {
+    float: left;
+    margin: 0 1rem 1rem 0;
 }
 
 img {
@@ -71,8 +77,8 @@ img {
 
 
 #screenings, #workshops, #collaborations {
+    display: flow-root;
     background-color: #1e293b;
-    padding: 1rem;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
 }
@@ -81,7 +87,7 @@ aside {
     background-color: #38bdf8;
     color: #1e293b;
     padding: 1rem;
-    padding: 1rem;
+    text-align: justify;
 }
 
 a {
